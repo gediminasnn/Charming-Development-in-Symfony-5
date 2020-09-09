@@ -3,8 +3,10 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Twig\Environment;
 
 class QuestionController extends AbstractController
 {
@@ -12,8 +14,16 @@ class QuestionController extends AbstractController
     /**
      * @Route("/", name="app_homepage")
      */
-    public function homepage()
+    public function homepage(Environment $twig, Request $request)
     {
+//        Su php bin/console debug:autowiring twig
+//        suradome Environment service ir panaudojome
+
+//        $html = $twig->render('questions/homepage.html.twig');
+//        sugrazinti tokia pacia reiksme
+//        return new Response($html);
+
+//        kaip cia \/
         return $this->render('questions/homepage.html.twig');
     }
 

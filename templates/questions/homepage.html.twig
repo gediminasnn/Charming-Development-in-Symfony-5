@@ -1,6 +1,13 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+
+    {% set route_name = app.request.attributes.get('_route') %}
+    {% set route_parameters = app.request.attributes.get('_route_params') %}
+
+    {# use this to get all the available attributes (not only routing ones) #}
+    {% set all_attributes = app.request.attributes.all %}
+
     <div class="jumbotron-img jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Your Questions Answered</h1>

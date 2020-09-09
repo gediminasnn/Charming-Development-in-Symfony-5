@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="886603af-0028-4c59-889d-61f5d2ec44c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/questions/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/questions/homepage.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +113,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\symfony\couldron_overflow\public\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\symfony\couldron_overflow\public" />
       <recent name="C:\xampp\htdocs\symfony\couldron_overflow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\symfony\couldron_overflow\config" />
+      <recent name="C:\xampp\htdocs\symfony\couldron_overflow\public\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +136,10 @@
       <workItem from="1599172852698" duration="1029000" />
       <workItem from="1599208762723" duration="1182000" />
       <workItem from="1599334390304" duration="4197000" />
-      <workItem from="1599340923980" duration="11104000" />
+      <workItem from="1599340923980" duration="11797000" />
+      <workItem from="1599584214363" duration="7409000" />
+      <workItem from="1599664525107" duration="1343000" />
+      <workItem from="1599666312267" duration="1127000" />
     </task>
     <servers />
   </component>
@@ -156,10 +163,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="167" key="#PHP/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1599172839199" />
-    <state x="703" y="243" key="NewPhpClassDialog" timestamp="1599490452309">
+    <state x="703" y="243" key="NewPhpClassDialog" timestamp="1599587775505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="703" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1599490452309" />
+    <state x="703" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1599587775505" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1599587491649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1599587491649" />
     <state x="459" y="169" key="SettingsEditor" timestamp="1599485942457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
